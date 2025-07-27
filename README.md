@@ -26,11 +26,11 @@ Organic Waste Management System is a web-based platform designed to help users e
 ### **Technology Stack**:
 
   
-   **Frontend**: HTML, CSS, bootstrap
+   - **Frontend**: HTML, CSS, bootstrap
     
-   **Backend**: PHP 
+   - **Backend**: PHP 
     
-   **Server**: XAMPP (Apache & MySQL stack)
+   - **Server**: XAMPP (Apache & MySQL stack)
 
 ***
 
@@ -83,16 +83,16 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
  ## 🛒 **Shopping Page**
-    - Includes links to useful products
+  - Includes links to useful products
 
        
 
  ## 📄 **Seller Details Display Page**
-    - Shows details of waste submitted by sellers
+  - Shows details of waste submitted by sellers
        
-    - Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
+  - Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
        
-    - Helps buyers  to view available organic waste
+  - Helps buyers  to view available organic waste
        
 
 ***
@@ -181,14 +181,14 @@ Organic Waste Management System is a web-based platform designed to help users e
    - Import the provided .sql file with tables like:
        - users
             
-            * seller_form
+       - seller_form
             
-            * contact_messages
+       - contact_messages
 
    ## **3. Configure Database Connection**
-       - Open the relevant PHP configuration file (e.g., server.php).
+    - Open the relevant PHP configuration file (e.g., server.php).
         
-       - Update the database credentials:
+    - Update the database credentials:
 
            $username = "";
            $email    = "";
@@ -201,15 +201,15 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 
    ## **4. Run the Application Locally**
-      - Place all project files inside your local server directory:
+    - Place all project files inside your local server directory:
 
         For XAMPP: htdocs/organic-waste-management
         
-        Start Apache and MySQL using XAMPP/WAMP.
+    - Start Apache and MySQL using XAMPP/WAMP.
 
    ## **5. Access the Application**
    
-       - Open your browser and go to:
+    - Open your browser and go to:
 
             http://localhost/organic-waste-management
             
