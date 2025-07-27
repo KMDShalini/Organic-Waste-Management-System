@@ -57,8 +57,8 @@ Organic Waste Management System is a web-based platform designed to help users e
        Form data is saved with date and time
 
 
-  ✉️ **Feedback Form**
-  * User can send a message to the admin
+  ✉️* **Feedback Form**
+      * User can send a message to the admin
        
       * Fields: Name, Email, Message
        
