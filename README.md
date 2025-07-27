@@ -9,8 +9,7 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 ## 🏗️ **Project Overview**
 
-
-  **Key Features**:
+### **Key Features**:
 
   
    🌿 **Waste Type Classification**: Users can select common organic waste types or specify others manually.
@@ -24,7 +23,7 @@ Organic Waste Management System is a web-based platform designed to help users e
    ✅ **Responsive UI**: Clean and mobile-friendly interface.
    
 
-  **Technology Stack**:
+### **Technology Stack**:
 
   
    **Frontend**: HTML, CSS, bootstrap
@@ -67,7 +66,6 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
 ##  🔐 **User Authentication**
-  
    - Registration for Sellers, Buyers
        
    - Login with Email and Password
@@ -76,7 +74,6 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
 ##  🧾 **About Us Page**
-  
      - Shows information about the platform
        
      - Explains the goal of reducing organic waste
@@ -86,13 +83,11 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
  ## 🛒 **Shopping Page**
-  
      - Includes links to useful products
 
        
 
  ## 📄 **Seller Details Display Page**
-  
     - Shows details of waste submitted by sellers
        
     - Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
