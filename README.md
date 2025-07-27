@@ -58,7 +58,7 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 
   ✉️ **Feedback Form**
-   *  User can send a message to the admin
+      * User can send a message to the admin
        
       * Fields: Name, Email, Message
        
@@ -66,8 +66,6 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
   🔐 **User Authentication**
-
-
        * Registration for Sellers, Buyers
        
        * Login with Email and Password
@@ -76,8 +74,6 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
   🧾 **About Us Page**
-
-
        * Shows information about the platform
        
        * Explains the goal of reducing organic waste
@@ -87,14 +83,11 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
   🛒 **Shopping Page**
-   
        * Includes links to useful products
 
        
 
   📄 **Seller Details Display Page**
-  
-
        * Shows details of waste submitted by sellers
        
        * Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
@@ -181,12 +174,11 @@ Organic Waste Management System is a web-based platform designed to help users e
        git clone https://github.com/your-username/organic-waste-management.git
 
    **2. Set Up the Database**
-   
-       Open phpMyAdmin or your preferred MySQL tool.
+       * Open phpMyAdmin or your preferred MySQL tool.
        
-       Create a new database (e.g., zam).
+       * Create a new database (e.g., zam).
        
-       Import the provided .sql file with tables like:
+       * Import the provided .sql file with tables like:
 
             * users
             
@@ -195,10 +187,9 @@ Organic Waste Management System is a web-based platform designed to help users e
             * contact_messages
 
    **3. Configure Database Connection**
-   
-        Open the relevant PHP configuration file (e.g., server.php).
+       * Open the relevant PHP configuration file (e.g., server.php).
         
-        Update the database credentials:
+       * Update the database credentials:
 
            $username = "";
            $email    = "";
@@ -211,8 +202,7 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 
    **4. Run the Application Locally**
-   
-        Place all project files inside your local server directory:
+      * Place all project files inside your local server directory:
 
         For XAMPP: htdocs/organic-waste-management
         
@@ -226,7 +216,6 @@ Organic Waste Management System is a web-based platform designed to help users e
             
 
 ✅ **Now You Can**:
-
      * Register and log in as a Seller or Buyer
      
      * Submit organic waste via the Seller Form
