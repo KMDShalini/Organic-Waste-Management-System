@@ -230,5 +230,5 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 ## 🤝 **Contributions:**
 
-      Contributions, issues, and feature requests are welcome! Feel free to submit a pull request or open an issue for discussion.
+- Contributions, issues, and feature requests are welcome! Feel free to submit a pull request or open an issue for discussion.
 
