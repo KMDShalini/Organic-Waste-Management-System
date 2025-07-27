@@ -13,31 +13,31 @@ Organic Waste Management System is a web-based platform designed to help users e
   **Key Features**:
 
   
-   🌿* **Waste Type Classification**: Users can select common organic waste types or specify others manually.
+   🌿 **Waste Type Classification**: Users can select common organic waste types or specify others manually.
     
-    🧪 *Wetness Measurement Input: Capture the moisture percentage to assist in composting and processing.
+   🧪 **Wetness Measurement Input**: Capture the moisture percentage to assist in composting and processing.
     
-    ⚖️ Weight Input: Enter the weight in kilograms for precise tracking.
+   ⚖️ **Weight Input**: Enter the weight in kilograms for precise tracking.
     
-    📝 Additional Details: Users can leave contact info and comments for further clarification.
+   📝 **Additional Details**: Users can leave contact info and comments for further clarification.
     
-    ✅ Responsive UI: Clean and mobile-friendly interface.
+   ✅ **Responsive UI**: Clean and mobile-friendly interface.
 
   **Technology Stack**:
-    Frontend: HTML, CSS, bootstrap
+   **Frontend**: HTML, CSS, bootstrap
     
-    Backend: PHP 
+   **Backend**: PHP 
     
-    Server: XAMPP (Apache & MySQL stack)
+   **Server**: XAMPP (Apache & MySQL stack)
 
 ***
 
 🎯 **Project Features**
 
-   👤 **Seller Form**
+ 👤 **Seller Form**
 
 
-       Select waste category: Wet or Dry
+   * **Select waste category**: Wet or Dry
        
        Choose waste type: Fruit, Vegetable, Meat, Dairy, etc.
        
