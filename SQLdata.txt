@@ -1,0 +1,35 @@
+1. users table (for registration)
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+
+
+2. organic_waste table (for seller data)
+
+CREATE TABLE organic_waste (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    waste_category VARCHAR(50),
+    waste_type VARCHAR(100),
+    other_info TEXT,
+    wetness VARCHAR(50),
+    weight DECIMAL(5,2),
+    additional_info TEXT,
+    contact_details VARCHAR(150),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+3. contact_form table
+
+CREATE TABLE contact_form (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    message TEXT,
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
