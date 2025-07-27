@@ -60,48 +60,48 @@ Organic Waste Management System is a web-based platform designed to help users e
   ✉️ **Feedback Form**
 
   
-       User can send a message to the admin
+       * User can send a message to the admin
        
-       Fields: Name, Email, Message
+       * Fields: Name, Email, Message
        
-       Message is stored with timestamp
+       * Message is stored with timestamp
        
 
   🔐 **User Authentication**
 
 
-       Registration for Sellers, Buyers
+       * Registration for Sellers, Buyers
        
-       Login with Email and Password
+       * Login with Email and Password
        
-       Redirected to respective dashboards after login
+       * Redirected to respective dashboards after login
        
 
   🧾 **About Us Page**
 
 
-       Shows information about the platform
+       * Shows information about the platform
        
-       Explains the goal of reducing organic waste
+       * Explains the goal of reducing organic waste
        
-       Encourages eco-friendly practices
+       * Encourages eco-friendly practices
 
        
 
   🛒 **Shopping Page**
    
-       Includes links to useful products
+       * Includes links to useful products
 
        
 
   📄 **Seller Details Display Page**
   
 
-       Shows details of waste submitted by sellers
+       * Shows details of waste submitted by sellers
        
-       Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
+       * Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
        
-       Helps buyers  to view available organic waste
+       * Helps buyers  to view available organic waste
        
 
 ***
