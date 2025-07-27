@@ -1,4 +1,4 @@
-♻️ **Organic-Waste-Management-System**
+# Organic-Waste-Management-System
 
 📌 **Introduction**
 
