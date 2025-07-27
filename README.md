@@ -60,11 +60,11 @@ Organic Waste Management System is a web-based platform designed to help users e
   ✉️ **Feedback Form**
 
   
-       * User can send a message to the admin
+      * User can send a message to the admin
        
-       * Fields: Name, Email, Message
+      * Fields: Name, Email, Message
        
-       * Message is stored with timestamp
+      * Message is stored with timestamp
        
 
   🔐 **User Authentication**
