@@ -11,9 +11,11 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 
   **Key Features**:
-    🌿 * Waste Type Classification: Users can select common organic waste types or specify others manually.
+
+  
+    🌿 *Waste Type Classification: Users can select common organic waste types or specify others manually.
     
-    🧪 * Wetness Measurement Input: Capture the moisture percentage to assist in composting and processing.
+    🧪 *Wetness Measurement Input: Capture the moisture percentage to assist in composting and processing.
     
     ⚖️ Weight Input: Enter the weight in kilograms for precise tracking.
     
