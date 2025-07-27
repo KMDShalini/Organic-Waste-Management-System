@@ -1,5 +1,5 @@
 # Organic-Waste-Management-System
-
+**************************
 📌 **Introduction**
 
 
@@ -28,7 +28,68 @@ ________________________________________________________________________________
     
     Server: XAMPP (Apache & MySQL stack)
 
-🎯 **Features**
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+🎯 **Project Features**
+
+   👤 **Seller Form**
+
+
+       Select waste category: Wet or Dry
+       
+       Choose waste type: Fruit, Vegetable, Meat, Dairy, etc.
+       
+       Option to add a custom waste type
+       
+       Enter wetness percentage (0–100%)
+       
+       Enter weight in kg
+       
+       Provide contact details
+       
+       Add additional notes if needed
+       
+       Form data is saved with date and time
+
+   ✉️ **Feedback Form**
+       User can send a message to the admin
+       
+       Fields: Name, Email, Message
+       
+       Message is stored with timestamp
+
+   🔐 **User Authentication**
+
+
+       Registration for Sellers, Buyers
+       
+       Login with Email and Password
+       
+       Redirected to respective dashboards after login
+
+   🧾 **About Us Page**
+
+
+       Shows information about the platform
+       
+       Explains the goal of reducing organic waste
+       
+       Encourages eco-friendly practices
+
+   🛒 **Shopping Page**
+   
+       Includes links to useful products
+
+   📄 **Seller Details Display Page**
+
+       Shows details of waste submitted by sellers
+       
+       Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
+       
+       Helps buyers  to view available organic waste
+
+
+
 
 📋 **How to Use**
 Setup Instructions:
