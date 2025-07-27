@@ -3,8 +3,7 @@
 ## 📌 **Introduction**
 
 
-Organic Waste Management System is a web-based platform designed to help users efficiently submit and categorize their organic waste. It simplifies the process for sellers or individuals to report the type, amount, and moisture content of organic waste, making it easier for municipal or private waste management entities to process and utilize.
-
+Organic Waste Management System is a web-based platform designed to connect people who generate organic waste (like households or sellers) with those who want to reuse it (like farmers, gardeners, or composters).
 ***
 
 ## 🏗️ **Project Overview**
