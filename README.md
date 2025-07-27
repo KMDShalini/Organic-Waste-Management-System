@@ -24,6 +24,8 @@ Organic Waste Management System is a web-based platform designed to help users e
    ✅ **Responsive UI**: Clean and mobile-friendly interface.
 
   **Technology Stack**:
+
+  
    **Frontend**: HTML, CSS, bootstrap
     
    **Backend**: PHP 
@@ -39,7 +41,7 @@ Organic Waste Management System is a web-based platform designed to help users e
 
    * **Select waste category**: Wet or Dry
        
-       Choose waste type: Fruit, Vegetable, Meat, Dairy, etc.
+   * **Choose waste type**: Fruit, Vegetable, Meat, Dairy, etc.
        
        Option to add a custom waste type
        
@@ -53,14 +55,17 @@ Organic Waste Management System is a web-based platform designed to help users e
        
        Form data is saved with date and time
 
-   ✉️ **Feedback Form**
+  ✉️ **Feedback Form**
+
+  
        User can send a message to the admin
        
        Fields: Name, Email, Message
        
        Message is stored with timestamp
+       
 
-   🔐 **User Authentication**
+  🔐 **User Authentication**
 
 
        Registration for Sellers, Buyers
@@ -68,8 +73,9 @@ Organic Waste Management System is a web-based platform designed to help users e
        Login with Email and Password
        
        Redirected to respective dashboards after login
+       
 
-   🧾 **About Us Page**
+  🧾 **About Us Page**
 
 
        Shows information about the platform
@@ -78,133 +84,147 @@ Organic Waste Management System is a web-based platform designed to help users e
        
        Encourages eco-friendly practices
 
-   🛒 **Shopping Page**
+       
+
+  🛒 **Shopping Page**
    
        Includes links to useful products
 
-   📄 **Seller Details Display Page**
+       
+
+  📄 **Seller Details Display Page**
+  
 
        Shows details of waste submitted by sellers
        
        Includes: Category, Type, Wetness, Weight, Contact, Notes, Date
        
        Helps buyers  to view available organic waste
+       
 
 ***
 
 🌐 **Frontend Pages**
 
-*Landing Page:
+* **Landing Page**:
+  
 <img width="1880" height="883" alt="Screenshot 2025-07-18 155521" src="https://github.com/user-attachments/assets/eeaf39c6-9d17-4c48-9d60-bcb23583c5bf" />
 
 * **Login/Registration**:
+  
 <img width="1895" height="748" alt="Screenshot 2025-07-18 155446" src="https://github.com/user-attachments/assets/011fba89-ec85-4322-8592-3d622c9db5c0" />
 
 <img width="1913" height="899" alt="Screenshot 2025-07-18 155500" src="https://github.com/user-attachments/assets/7b34519c-e89f-4709-9f03-f187e9de702b" />
 
 
-Dashboard:
+* **Dashboard**:
 
 <img width="1904" height="903" alt="Screenshot 2025-07-27 184543" src="https://github.com/user-attachments/assets/bd2ee2c3-d8a7-417b-82bb-16454c3cc771" />
 
-Seller page:
+* **Seller Page**:
+  
 <img width="1903" height="887" alt="Screenshot 2025-07-18 160005" src="https://github.com/user-attachments/assets/396fe889-986c-4ae8-924e-66a311924249" />
 
 
-Shopping Page:
+* **Shopping Page**:
+
+  
 <img width="1863" height="888" alt="Screenshot 2025-07-18 155740" src="https://github.com/user-attachments/assets/6fb9ec2e-121d-47fd-9444-c37686386b19" />
 
-User Guide Pages:
+* **User Guide Pages**:
+
+  
 <img width="1895" height="879" alt="Screenshot 2025-07-18 155645" src="https://github.com/user-attachments/assets/d3d9d00c-b8d7-4c9e-a593-2ee8f43fd74f" />
 
 <img width="1896" height="893" alt="Screenshot 2025-07-18 155656" src="https://github.com/user-attachments/assets/ebad0ad1-5962-467c-b98c-f5f08a466e40" />
 
 <img width="1884" height="902" alt="Screenshot 2025-07-18 155722" src="https://github.com/user-attachments/assets/2e11a4d7-5700-47c0-bd68-95648508e815" />
 
-Contact Us Page:
+* **Contact Us Page**:
 
 <img width="1889" height="908" alt="Screenshot 2025-07-18 155559" src="https://github.com/user-attachments/assets/c95b6a55-8d1e-47bd-9720-5569cd1eb83d" />
 
-About Us Page:
+* **About Us Page**:
 
 <img width="1879" height="803" alt="Screenshot 2025-07-18 155542" src="https://github.com/user-attachments/assets/d08fc272-2c2c-4701-a16a-73d2ba6daeca" />
 
 
-Seller Details Display Page:
+* **Seller Details Display Page**:
 
 
 <img width="1898" height="864" alt="Screenshot 2025-07-18 160105" src="https://github.com/user-attachments/assets/96444cdc-5fe1-4cfa-b6fb-9b92ff4128ec" />
 
 
+***
 
 
+🛠️ **How to Run**
 
-📋 **How to Use**
-Setup Instructions:
-XAMPP Installation:
 
-Install and open XAMPP.
+  **1. Clone the Repository**
 
-Start Apache (and MySQL if backend/database is used).
+       git clone https://github.com/your-username/organic-waste-management.git
 
-Project Placement:
+   **2. Set Up the Database**
+   
+       Open phpMyAdmin or your preferred MySQL tool.
+       
+       Create a new database (e.g., zam).
+       
+       Import the provided .sql file with tables like:
 
-Copy your project folder (e.g., miniproject) into:
+            * users
+            
+            * seller_form
+            
+            * contact_messages
 
-makefile
-Copy
-Edit
-C:\xampp\htdocs\
-Access the Web Page:
+   **3. Configure Database Connection**
+   
+        Open the relevant PHP configuration file (e.g., server.php).
+        
+        Update the database credentials:
 
-Open your browser and go to:
+           $username = "";
+           $email    = "";
+           $errors = array(); 
+           
+           // connect to the database
 
-arduino
-Copy
-Edit
-http://localhost/miniproject/seller.html
-If the page doesn’t open, ensure:
+           
+           $db = mysqli_connect('localhost', 'root', '', 'jam');
 
-Apache is running.
 
-Your file path is correct.
+   **4. Run the Application Locally**
+   
+        Place all project files inside your local server directory:
 
-The file is named seller.html and inside the correct folder.
+        For XAMPP: htdocs/organic-waste-management
+        
+        Start Apache and MySQL using XAMPP/WAMP.
 
-Optional (Form Handling):
+   **5. Access the Application**
+   
+        Open your browser and go to:
 
-If using submit.php, ensure PHP is correctly set up and connected to a backend handler or database.
+            http://localhost/organic-waste-management
 
-🌐 Features
-👤 Seller Form:
-Select waste category: Wet or Dry
+✅ **Now You Can**:
 
-Choose waste type: Fruit, Vegetable, Meat, Dairy, etc.
+     * Register and log in as a Seller or Buyer
+     
+     * Submit organic waste via the Seller Form
+     
+     * View submitted waste data
+     
+     * Explore compost/biogas tips in the Shopping section
+     
+     * Contact admin through the Contact Us form
 
-Optional: Add custom waste type
 
-Input wetness percentage (0-100%)
+***
 
-Input weight in kg
+🤝 **Contributions:**
 
-Add contact info and any other notes
+      Contributions, issues, and feature requests are welcome! Feel free to submit a pull request or open an issue for discussion.
 
-🧾 Folder Structure
-cpp
-Copy
-Edit
-miniproject/
-├── seller.html
-├── img1.jpg
-├── submit.php (optional)
-├── style.css (if separated)
-└── ... (other supporting files)
-🏆 Contributors
-Katikireddy Shalini
-
-[Add other contributors if applicable]
-
-📌 Notes
-Ensure the image file img1.jpg exists in the same directory or correct path; otherwise, the background won’t display.
-
-If submit.php is not being used, the form submission won't go anywhere unless handled by JavaScript or another backend method.
