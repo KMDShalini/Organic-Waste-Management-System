@@ -74,11 +74,11 @@ Organic Waste Management System is a web-based platform designed to help users e
        
 
 ##  🧾 **About Us Page**
-    - Shows information about the platform
+  - Shows information about the platform
        
-    - Explains the goal of reducing organic waste
+  - Explains the goal of reducing organic waste
        
-    - Encourages eco-friendly practices
+  - Encourages eco-friendly practices
 
        
 
