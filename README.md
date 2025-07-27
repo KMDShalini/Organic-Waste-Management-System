@@ -186,9 +186,9 @@ Organic Waste Management System is a web-based platform designed to help users e
        - contact_messages
 
    ## **3. Configure Database Connection**
-    - Open the relevant PHP configuration file (e.g., server.php).
+  - Open the relevant PHP configuration file (e.g., server.php).
         
-    - Update the database credentials:
+  - Update the database credentials:
 
            $username = "";
            $email    = "";
@@ -201,15 +201,15 @@ Organic Waste Management System is a web-based platform designed to help users e
 
 
    ## **4. Run the Application Locally**
-    - Place all project files inside your local server directory:
+  - Place all project files inside your local server directory:
 
         For XAMPP: htdocs/organic-waste-management
         
-    - Start Apache and MySQL using XAMPP/WAMP.
+  - Start Apache and MySQL using XAMPP/WAMP.
 
    ## **5. Access the Application**
    
-    - Open your browser and go to:
+  - Open your browser and go to:
 
             http://localhost/organic-waste-management
             
