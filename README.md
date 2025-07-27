@@ -1,11 +1,11 @@
-# Organic-Waste-Management-System
-**************************
+<img width="1880" height="883" alt="Screenshot 2025-07-18 155521" src="https://github.com/user-attachments/assets/ab8a30fd-d6e4-4b9e-947b-83d62ac0f76c" /># Organic-Waste-Management-System
+
 📌 **Introduction**
 
 
 Organic Waste Management System is a web-based platform designed to help users efficiently submit and categorize their organic waste. It simplifies the process for sellers or individuals to report the type, amount, and moisture content of organic waste, making it easier for municipal or private waste management entities to process and utilize.
 
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
+***
 
 🏗️ **Project Overview**
 
@@ -28,7 +28,7 @@ ________________________________________________________________________________
     
     Server: XAMPP (Apache & MySQL stack)
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+***
 
 🎯 **Project Features**
 
@@ -88,6 +88,12 @@ ________________________________________________________________________________
        
        Helps buyers  to view available organic waste
 
+***
+
+🌐 **Frontend Pages**
+
+*Landing Page:
+<img width="1880" height="883" alt="Screenshot 2025-07-18 155521" src="https://github.com/user-attachments/assets/eeaf39c6-9d17-4c48-9d60-bcb23583c5bf" />
 
 
 
