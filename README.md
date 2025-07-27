@@ -1,28 +1,36 @@
-# Organic-Waste-Management-System
+♻️ **Organic-Waste-Management-System**
 
-📌 Introduction
+📌 **Introduction**
+
+
 Organic Waste Management System is a web-based platform designed to help users efficiently submit and categorize their organic waste. It simplifies the process for sellers or individuals to report the type, amount, and moisture content of organic waste, making it easier for municipal or private waste management entities to process and utilize.
 
-🏗️ Project Overview
-Key Features:
-🌿 Waste Type Classification: Users can select common organic waste types or specify others manually.
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🧪 Wetness Measurement Input: Capture the moisture percentage to assist in composting and processing.
+🏗️ **Project Overview**
 
-⚖️ Weight Input: Enter the weight in kilograms for precise tracking.
 
-📝 Additional Details: Users can leave contact info and comments for further clarification.
+  **Key Features**:
+    🌿 Waste Type Classification: Users can select common organic waste types or specify others manually.
+    
+    🧪 Wetness Measurement Input: Capture the moisture percentage to assist in composting and processing.
+    
+    ⚖️ Weight Input: Enter the weight in kilograms for precise tracking.
+    
+    📝 Additional Details: Users can leave contact info and comments for further clarification.
+    
+    ✅ Responsive UI: Clean and mobile-friendly interface.
 
-✅ Responsive UI: Clean and mobile-friendly interface.
+  **Technology Stack**:
+    Frontend: HTML, CSS, bootstrap
+    
+    Backend: PHP 
+    
+    Server: XAMPP (Apache & MySQL stack)
 
-Technology Stack:
-Frontend: HTML, CSS, JavaScript
+🎯 **Features**
 
-Backend (Optional): PHP (e.g., submit.php for form processing)
-
-Server: XAMPP (Apache & MySQL stack)
-
-📋 How to Use
+📋 **How to Use**
 Setup Instructions:
 XAMPP Installation:
 
